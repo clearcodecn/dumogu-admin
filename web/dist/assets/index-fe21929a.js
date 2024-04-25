@@ -1,0 +1,1 @@
+import{Q as c,W as n,V as p,l as u,m as _}from"./index-999588c8.js";const d={name:"Redirect",setup(a){const e=n(),t=p(),{params:r,query:s}=e,{path:o}=r;return t.replace({path:o,query:s}),{}}};function i(a,e,t,r,s,o){return u(),_("div")}const f=c(d,[["render",i]]);export{f as default};

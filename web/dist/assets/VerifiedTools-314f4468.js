@@ -1,0 +1,1 @@
+function c(s={},n={}){const f=[];return Array.isArray(n)?n.forEach(a=>{if(!a||!a.validate||!a.key)return;const e=a.validate;e(s[a.key],a)||f.push(a)}):Object.keys(n).forEach(e=>{const r=n[e];if(!r||!r.validate)return;const t=r.validate;t(s[e],r)||f.push({...r,key:e})}),f.length==0?void 0:f}export{c as v};
